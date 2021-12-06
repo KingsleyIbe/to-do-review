@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.generalContainer {
+  width: 50%;
+  position: absolute;
+  left: 300px;
+  margin-top: 100px;
+  border: 1px solid #cfd0d1;
+  padding-left: 20px;
+}
+
+.generalContainer i {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.generalContainer hr {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: #dfe1e6;
+}
+
+.generalContainer .appHeading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 69%;
+  width: 100%;
+}
+
+.generalContainer .form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 62%;
+  width: 100%;
+}
+
+.generalContainer .form input {
+  font-size: 16px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.generalContainer .item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 5%;
+  padding-left: 0;
+  width: 100%;
+}
+
+.generalContainer .item-container i {
+  padding-left: 325px;
+}
+
+.generalContainer .item-container .edit {
+  position: absolute;
+  left: 290px;
+}
+
+.generalContainer .item-container .description {
+  cursor: pointer;
+  border: none;
+}
+
+.generalContainer .item-container .edit-input {
+  display: none;
+}
+
+.generalContainer .clear {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 23px;
+  background-color: #dfe1e6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.generalContainer .clear:hover {
+  text-decoration: underline;
+  background: #b6bac4;
+}
+
+.toggle-dark-mode {
+  cursor: pointer;
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.toggle-dark-mode .fa-sun {
+  padding-right: 2px;
+}
+
+.toggle-dark-mode .dark-mode {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.toggle-dark-mode .dark-mode input::-moz-placeholder {
+  color: #fff;
+}
+
+.toggle-dark-mode .dark-mode input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.toggle-dark-mode .dark-mode input::placeholder {
+  color: #fff;
+}
+
+.toggle-dark-mode .dark-mode #text-input,
+.toggle-dark-mode .dark-mode .clear {
+  background-color: #000;
+  color: #fff;
+}
+
+.toggle-dark-mode .dark-mode .description {
+  color: #fff;
+  background-color: #000;
+}/*# sourceMappingURL=style.css.map */
